@@ -7,7 +7,7 @@ const ftoc = function(faranheit) {
 
 const ctof = function(celcius) {
   let cTemp = celcius;
-  let cToFar = cTemp * 5/9 + 32;
+  let cToFar = cTemp * 9/5 + 32;
   let cRounded = Math.round(cToFar * 10) / 10;
   return cRounded;
 };
