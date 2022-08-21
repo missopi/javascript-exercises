@@ -7,7 +7,10 @@ const sumAll = function(value1, value2) {
         sum += i;
       }
 
-    if (sum >0) {
+    if (typeof value2 != "number") {
+        return 'ERROR'; 
+    }
+    else if (sum >0) {
         return sum;
     }
     else {
