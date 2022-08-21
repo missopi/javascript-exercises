@@ -7,8 +7,12 @@ const sumAll = function(value1, value2) {
         sum += i;
       }
 
-    return sum;
-
+    if (sum >0) {
+        return sum;
+    }
+    else {
+        return 'ERROR';
+    }
 };
 
 // Do not edit below this line
