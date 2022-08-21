@@ -1,4 +1,13 @@
-const sumAll = function() {
+const sumAll = function(value1, value2) {
+    let highNum = Math.max(value1, value2);
+    let lowNum = Math.min(value1, value2);
+    let sum = 0;
+
+    for (let i = lowNum; i <= highNum; i++) { 
+        sum += i;
+      }
+
+    return sum;
 
 };
 
